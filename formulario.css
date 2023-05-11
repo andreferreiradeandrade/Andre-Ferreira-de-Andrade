@@ -1,26 +1,28 @@
 body{
-    background-image: linear-gradient(to right, rgb(148, 150, 231), rgb(218, 210, 247));
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
     font-family: Arial, Helvetica, sans-serif;
 }
 .box{
-    color: rgb(56, 36, 131);
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(0, 0, 0, 0.877);
     padding: 15px;
     border-radius: 25px;
     width: 25%;
 }
 fieldset{
     border: 3px solid rgb(101, 88, 221);
+    border-radius: 30px;
 }
 legend{
     border: 1px solid rgb(101, 88, 221);
     padding: 10px;
     text-align: center;
     background-color: rgb(101, 88, 221);
+    border-radius: 30px;
 }
 .inputBox{
     position: relative;
@@ -44,4 +46,25 @@ legend{
     top:-20px;
     font-size:20px;
     color: dodgerblue;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#enviar{
+    background-image: linear-gradient(to right, rgb(0, 92, 192), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#enviar:hover{
+    background-image: linear-gradient(to right, rgb(0, 92, 192), rgb(90, 20, 195));
 }
