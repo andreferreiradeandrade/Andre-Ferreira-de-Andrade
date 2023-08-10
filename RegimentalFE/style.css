@@ -1,0 +1,18 @@
+@import url(style/header.css);
+:root{
+    --cor-de-fundo: white;
+    --azul:#0D0C1D;
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 20px;
+    font-weight: 400;
+}
+.slogan{
+    color:white;
+    font-size: 20px;
+    /*font-family: 'Fantasy', Arial, sans-serif;*/
+    display: none;
+    margin-top: 200px;
+}
