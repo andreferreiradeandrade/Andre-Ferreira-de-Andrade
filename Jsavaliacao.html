@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Avaliação Java Script</title>
+        
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div id="botao 1" class="botao1" onclick="Aguarde()" onmouseenter="Ir()" onmouseout="Site()">
+            <button id="botao1">
+                <a href="https://en.wikipedia.org/wiki/Wikipedia:Random">Site</a>
+            </button>
+
+        </div>
+
+        <div id="botao 2" class="botao2" onclick="Aguarde1()" onmouseenter="Ir1()" onmouseout="Site1()">
+            <button id="botao2">
+                <a href="https://en.wikipedia.org/wiki/Ersan_Erdura">Site</a>
+            </button>
+        </div>
+
+        <div id="botao 3" class="botao3" onclick="Aguarde2()" onmouseenter="Ir2()" onmouseout="Site2()">
+            <button id="botao3">
+                <a href="https://en.wikipedia.org/wiki/Arron_Davies">Site</a>
+            </button>
+        </div>
+
+        <script>
+            function Aguarde(){
+            var a = window.document.getElementById('botao1')
+            a.style.background="red"
+            }
+            function Ir(){
+                var e = window.document.getElementById('botao1')
+                e.style.background="yellow"
+                
+            }
+            function Site(){
+                var s = window.document.getElementById('botao1')
+                s.style.background="green"
+            }
+            function Aguarde1(){
+            var a = window.document.getElementById('botao2')
+            a.style.background="red"
+            }
+            function Ir1(){
+                var e = window.document.getElementById('botao2')
+                e.style.background="yellow"
+                
+            }
+            function Site1(){
+                var s = window.document.getElementById('botao2')
+                s.style.background="green"
+            }
+            function Aguarde2(){
+            var a = window.document.getElementById('botao3')
+            a.style.background="red"
+            }
+            function Ir2(){
+                var e = window.document.getElementById('botao3')
+                e.style.background="yellow"
+                
+            }
+            function Site2(){
+                var s = window.document.getElementById('botao3')
+                s.style.background="green"
+            }
+        </script>
+        
+    </body>
+</html>
