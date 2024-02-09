@@ -1,0 +1,86 @@
+body{
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+
+.all{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-image: url("Design\ sem\ nome\ \(1\).png");
+    
+}
+
+.gnr{
+    display: flex;
+    
+    font-family: Nabla;
+}
+
+.gnr:hover{
+    cursor: pointer;
+}
+
+.nm{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-self: center;
+    font-family: Honk;
+    width: 400px;
+}
+
+.aft{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: Nabla;
+    width: 400px;
+}
+
+.env{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: Honk;
+    background: none;
+    border: none;
+    font-size: 20px;
+
+}
+
+.env:hover{
+    cursor: pointer;
+    font-size: 25px;
+    transition: font-size 0.15s;
+}
+
+.nome{
+    margin-bottom: 5px;
+    font-family: Nabla;
+    width: 400px;
+}
+
+input{
+    font-family: Nabla;
+    background-color: black;
+}
+
+.homem{
+    margin-right: 70px;
+    margin-left: 10pxs;
+}
+
+.mulher{
+    
+      margin-right: 70px;
+    
+}
